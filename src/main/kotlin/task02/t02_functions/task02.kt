@@ -11,7 +11,7 @@ fun main() {
             Box = createBox()
             true
         },
-        {SolutionBox.height == Box.height && SolutionBox.length == Box.lenght && SolutionBox.width == Box.width }
+        {SolutionBox.height == Box.height && SolutionBox.length == Box.length && SolutionBox.width == Box.width }
     )
 }
 
@@ -19,7 +19,7 @@ fun main() {
 /**
  * Task 2:
  *
- * In kotlin function parameters can have default values, which are used when a corresponding argument is omitted.
+ * In Kotlin function parameters can have default values, which are used when a corresponding argument is omitted.
  * This allows for a reduced number of overloads compared to other languages.
  *
  */

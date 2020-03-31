@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 /**
  * Task 2: When
  *
- * When is Kotlins replacement of the switch-statement, but When lets us do more than switch in Java.
+ * When is Kotlin's replacement of the switch-statement, but When lets us do more than switch in Java.
  * https://kotlinlang.org/docs/reference/control-flow.html
  *
  * In its simplest form a when statement could look like this:

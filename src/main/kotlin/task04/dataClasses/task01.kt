@@ -14,7 +14,7 @@ fun main() {
 
 /**
  * Task 1 - Create a data class
- * In the java class JavaWine, you will find a model for wine reviews.
+ * In the Java class JavaWine, you will find a model for wine reviews.
  * This class contains four variables as well as getters and setters for these.
  * In addition, it has its own methods for equals() and toString().
  * As the first task, declare a Kotlin data class (RedWine) that does the same as the Java class JavaWine.

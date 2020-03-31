@@ -26,6 +26,6 @@ fun stringify(lambda: () -> String) = lambda() + "!"
  * For detailed information take a look at:
  * https://kotlinlang.org/docs/reference/lambdas.html
  *
- * Lets try to pass a lambda to 'stringify' that returns "hello", and return the result of that
+ * Let's try to pass a lambda to 'stringify' that returns "hello", and return the result of that.
  */
 fun task1(): String = TODO()

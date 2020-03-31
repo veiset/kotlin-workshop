@@ -5,7 +5,7 @@ fun main() {
 
     val box = createBoxWrapper(15)
     utils.tests("",
-        { box.height == 15 && box.lenght == 10 && box.width == 10 }
+        { box.height == 15 && box.length == 10 && box.width == 10 }
     )
 }
 
@@ -13,7 +13,7 @@ fun main() {
 /**
  * Task 3:
  *
- * In Kotlin Function parameters can be named when calling functions.
+ * In Kotlin function parameters can be named when calling functions.
  * This is very convenient when a function has a high number of parameters or default ones.
  *
  */

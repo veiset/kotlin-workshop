@@ -34,7 +34,7 @@ class MailScheduler {
  * After some research, you figure out that the delay is meant to be in minutes.
  *
  * - Write a wrapper as an inline class (Days), that takes an Int parameter (value).
- * - Give the Days class a toHours() function that returns a instance of Hours.
+ * - Give the Days class a toHours() function that returns an instance of Hours.
  * - In task4Value(), create an instance of Days and set value to numberOfDays. Return value.
  * - In task4ToHours(), create an instance of Days and set value to numberOfDays. Return Days.toHours().
  * - In task4ToMinutes(), create an instance of Days and set value to numberOfDays. Return Hours.toMinutes().
@@ -56,7 +56,7 @@ fun task4ToMinutes(numberOfDays: Int): Minutes {
 }
 
 /**
- * Finnaly, complete the registration function underneath by
+ * Finally, complete the registration function underneath by
  * using the new wrapper classes.
  */
 

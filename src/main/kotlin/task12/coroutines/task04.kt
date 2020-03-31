@@ -31,7 +31,7 @@ fun main() {
  * A very good article for thoroughly understanding coroutines ->
  * https://medium.com/@elye.project/understanding-suspend-function-of-coroutines-de26b070c5ed
  *
- * Task - Make the apiCall() function suspending and use the IO dispather context.
+ * Task - Make the apiCall() function suspending and use the IO dispatcher context.
  *
  */
 

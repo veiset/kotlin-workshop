@@ -15,6 +15,6 @@ fun numberMagic(lambda: (Int) -> Int) = lambda(10)
  * special reference `it`. So instead of writing `{ number -> number + 5}` we can simply write
  * `{ it + 5 }`
  *
- * Lets pass a lambda to 'numberMagic' that doubles the number received.
+ * Let's pass a lambda to 'numberMagic' that doubles the number received.
  */
 fun task2(): Int = TODO()

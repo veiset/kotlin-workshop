@@ -5,7 +5,7 @@ fun main() {
 
     utils.tests("",
         { "Ola Nordmann" == formatFirstAndSurname("Ola", "Nordmann") },
-        { Solution.formatFirstNameAndSurnam("Ola", "Nordmann") == formatFirstAndSurname("Ola", "Nordmann") }
+        { Solution.formatFirstNameAndSurname("Ola", "Nordmann") == formatFirstAndSurname("Ola", "Nordmann") }
     )
 }
 
@@ -20,4 +20,4 @@ fun main() {
 
 
 // TODO: Implement formatFirstAndSurname as "{first name} {surname}"
-fun formatFirstAndSurname( firstName: String,  surname: String ): String = TODO()
+fun formatFirstAndSurname( firstName: String,  surname: String ): String = "$firstName $surname"
